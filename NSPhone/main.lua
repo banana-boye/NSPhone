@@ -1,5 +1,5 @@
-local basalt = require("basalt")
-local DiscoHook = require("DiscoHook")
+local basalt = require("NSPhone/basalt")
+local DiscoHook = require("NSPhone/DiscoHook")
 local webhook = DiscoHook.create("https://discord.com/api/webhooks/1316102809002836059/B_2l6RncV-J8dUwXGSHl7r2v0f0o1K5sXi8ckZO45cK8pczq6_vaL7ELbn8gn3RJLEvE")
 local version = 1.003
 if tonumber(http.get("https://pastebin.com/raw/L8PN2RTy").readAll()) ~= version then
